@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple Uploader using express.js">
+    <meta property="og:image" content="https://telegra.ph/file/07bff89cbe33ba70a45fe.jpg">
+    <link rel="icon" href="https://telegra.ph/file/07bff89cbe33ba70a45fe.jpg">
+    <link rel="shortcut icon" href="https://telegra.ph/file/07bff89cbe33ba70a45fe.jpg">
+    <title>File Uploader</title>
+</head>
+
+<body>
+    <h1>Simple File Uploader</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <div>
+            <input type="file" name="file" id="file">
+        </div>
+
+        <button style="margin-top: 1rem">Upload</button>
+    </form>
+</body>
+
+</html>
