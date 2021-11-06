@@ -1,0 +1,36 @@
+{
+  "name": "file-uploader",
+  "version": "1.0.0",
+  "description": "a simple file uploader using express.js",
+  "exports": "./app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akkun3704/file-uploader.git"
+  },
+  "keywords": [
+    "express-uploader",
+    "file-uploader"
+  ],
+  "author": "Akkun3704",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akkun3704/file-uploader/issues"
+  },
+  "homepage": "https://github.com/Akkun3704/file-uploader#readme",
+  "dependencies": {
+    "axios": "*",
+    "cheerio": "*",
+    "cookie-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "form-data": "*",
+    "morgan": "*",
+    "multer": "*",
+    "path": "*"
+  }
+}
